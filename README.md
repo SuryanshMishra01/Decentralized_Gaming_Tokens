@@ -12,7 +12,7 @@ This contract focuses on 5 functions:
 1) mint_Tokens: It can be used by owner (only) to mint 'DGN' tokens as an earned reward to any gamer's address.
 2) checkBalance(): To check the token balance of the caller's address.
 3) transferTokens(): Any player can transfer their tokens to their friends using this function.
-4) redeem_Tokens(): This function is used by the player to exchange (redeem) their token for in-game items (NFTs). In this smart contract, players can enter the indices of whichever item they want and the function will check that if the player has sufficient 'DGN' tokens then transfer it to the contract and mint the NFT and their address.
+4) redeem_Tokens(): This function is used by the player to exchange (redeem) their token for in-game items (NFTs). In this smart contract, players can enter the indices of whichever item they want and the function will check that if the player has sufficient 'DGN' tokens then transfer it to the contract and mint the NFT at their address.
 5) burnTokens(): This function will burn the tokens of the caller and also remove them from the network.
 
 ### 2) 'myGameAssets'
